@@ -47,7 +47,7 @@
 .search {
     margin-top: 1rem;
     padding-top: 1rem;
-    border-top: 1px solid #333;
+    border-top: 1px solid #FFFFFF;
 }
 
 .search__controls {
@@ -62,7 +62,9 @@
 }
 
 .contacts {
+    list-style: none;
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .contacts__grid {
@@ -74,21 +76,40 @@
     gap: 1rem;
 }
 
+.contact-photo {
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-right:20px;
+    margin-left: 20px;
+}
+
+.contact-photo:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    border-color: #017AFF;
+}
+
 .contact-card {
-    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #ccc;
     border-radius: 12px;
-    padding: 1rem;
-    background: #111;
+    padding: 0.5rem;
 }
 
 .contact-card__name {
-    margin: 0 0 0.25rem 0;
+    margin: 0 0.1 0.1 0rem;
     font-size: 1.1rem;
 }
 
 .contact-card__email,
-.contact-card__phone {
-    margin: 0.1rem 0;
+.contact-card__phone, 
+.contact-card__address, 
+.contact-card__birthday {
+    padding-bottom: 0.1 0.1 0.1 0rem;
     color: #aaa;
 }
 

@@ -1,32 +1,93 @@
 [
     {
         "id": 101,
-        "name": "Ada Lovelace",
-        "phone": "(555) 010-0101",
-        "email": "ada@example.com"
+        "name": "Michael Barbey",
+        "phone": "(516) 721-5101",
+        "email": "michaelbarbey@email.com",
+        "address": "72 High Wood Rd, Oyster Port, NY, USA",
+        "birthday": "07-09-98",
+        "photo": "/src/assets/images/michael.png"
+
     },
     {
         "id": 102,
-        "name": "Alan Turing",
-        "phone": "(555) 010-0102",
-        "email": "alan@example.com"
+        "name": "Carlos Devora",
+        "phone": "(214) 406-2702",
+        "email": "carlosdevora@email.com",
+        "address": "1340 Maple Tree Dr, Mesquite, TX, USA",
+        "birthday": "06-06-95",
+        "photo": "/src/assets/images/carlos.png"
     },
     {
         "id": 103,
-        "name": "Grace Hopper",
-        "phone": "(555) 010-0103",
-        "email": "grace@example.com"
+        "name": "Alex MacKerchar",
+        "phone": "(315) 719-4703",
+        "email": "alex@email.com",
+        "address": "205 Middleton St, Brooklyn, NY, USA",
+        "birthday": "08-26-95",
+        "photo": "/src/assets/images/alex.png"
     },
     {
         "id": 104,
-        "name": "Katherine Johnson",
-        "phone": "(555) 010-0104",
-        "email": "katherine@example.com"
+        "name": "Arooj Iqbal",
+        "phone": "(516) 661-4904",
+        "email": "arooj@email.com",
+        "address": "630 Old Country St, Garden City, NY, USA",
+        "birthday": "08-10-93",
+        "photo": "/src/assets/images/arooj.png"
     },
     {
         "id": 105,
-        "name": "Donald Knuth",
-        "phone": "(555) 010-0105",
-        "email": "donald@example.com"
+        "name": "Abiola Akesode",
+        "phone": "(347) 679-0105",
+        "email": "abiola@email.com",
+        "address": "185 Greenwich St, New York, NY, USA",
+        "birthday": "09-25-98",
+        "photo": "/src/assets/images/abiola.png"
+    },
+    {
+        "id": 106,
+        "name": "Matthew Whittam",
+        "phone": "(201) 707-7506",
+        "email": "matthew@email.com",
+        "address": "191 South Mountain Pky, Montvale, NJ, USA",
+        "birthday": "01-26-94",
+        "photo": "/src/assets/images/matthew.png"
+    },
+    {
+        "id": 107,
+        "name": "Christian Canterbury",
+        "phone": "(214) 207-0507",
+        "email": "christian@email.com",
+        "address": "3720 Potato Ave, Fort Worth, TX, USA",
+        "birthday": "01-12-95",
+        "photo": "/src/assets/images/christian.png"
+    },
+    {
+        "id": 108,
+        "name": "Amanda Foster",
+        "phone": "(406) 529-0108",
+        "email": "amanda@email.com",
+        "address": "4517 Calmont St, Fort Worth, TX, USA",
+        "birthday": "06-06-95",
+        "photo": "/src/assets/images/amanda.png"
+    },
+    {
+        "id": 109,
+        "name": "Lyric Foster",
+        "phone": "(817) 291-4039",
+        "email": "lyric@email.com",
+        "address": "4517 Calmont St, Fort Worth, TX, USA",
+        "birthday": "12-25-95",
+        "photo": "/src/assets/images/lyric.png"
+    },
+    {
+        "id": 110,
+        "name": "Daniel Grassie",
+        "phone": "(516) 246-1510",
+        "email": "daniel@email.com",
+        "address": "72 High Wood Pr, Oyster Park, NY, USA",
+        "birthday": "09-16-01",
+        "photo": "/src/assets/images/daniel.png"
     }
 ]
