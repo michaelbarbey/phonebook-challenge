@@ -1,7 +1,8 @@
 [
     {
         "id": 101,
-        "name": "Michael Barbey",
+        "firstname": "Michael",
+        "lastname": "Barbey",
         "phone": "(516) 721-5101",
         "email": "michaelbarbey@email.com",
         "address": "72 High Wood Rd, Oyster Port, NY, USA",
@@ -11,7 +12,8 @@
     },
     {
         "id": 102,
-        "name": "Carlos Devora",
+        "firstname": "Carlos",
+        "lastname": "Devora",
         "phone": "(214) 406-2702",
         "email": "carlosdevora@email.com",
         "address": "1340 Maple Tree Dr, Mesquite, TX, USA",
@@ -20,7 +22,8 @@
     },
     {
         "id": 103,
-        "name": "Alex MacKerchar",
+        "firstname": "Alex",
+        "lastname": "MacKerchar",
         "phone": "(315) 719-4703",
         "email": "alex@email.com",
         "address": "205 Middleton St, Brooklyn, NY, USA",
@@ -29,7 +32,8 @@
     },
     {
         "id": 104,
-        "name": "Arooj Iqbal",
+        "firstname": "Arooj",
+        "lastname": "Iqbal",
         "phone": "(516) 661-4904",
         "email": "arooj@email.com",
         "address": "630 Old Country St, Garden City, NY, USA",
@@ -38,7 +42,8 @@
     },
     {
         "id": 105,
-        "name": "Abiola Akesode",
+        "firstname": "Abiola",
+        "lastname": "Akesode",
         "phone": "(347) 679-0105",
         "email": "abiola@email.com",
         "address": "185 Greenwich St, New York, NY, USA",
@@ -47,7 +52,8 @@
     },
     {
         "id": 106,
-        "name": "Matthew Whittam",
+        "firstname": "Matthew",
+        "lastname": "Whittam",
         "phone": "(201) 707-7506",
         "email": "matthew@email.com",
         "address": "191 South Mountain Pky, Montvale, NJ, USA",
@@ -56,7 +62,8 @@
     },
     {
         "id": 107,
-        "name": "Christian Canterbury",
+        "firstname": "Christian",
+        "lastname": "Canterbury",
         "phone": "(214) 207-0507",
         "email": "christian@email.com",
         "address": "3720 Potato Ave, Fort Worth, TX, USA",
@@ -65,7 +72,8 @@
     },
     {
         "id": 108,
-        "name": "Amanda Foster",
+        "firstname": "Amanda",
+        "lastname": "Foster",
         "phone": "(406) 529-0108",
         "email": "amanda@email.com",
         "address": "4517 Calmont St, Fort Worth, TX, USA",
@@ -74,7 +82,8 @@
     },
     {
         "id": 109,
-        "name": "Lyric Foster",
+        "firstname": "Lyric",
+        "lastname": "Foster",
         "phone": "(817) 291-4039",
         "email": "lyric@email.com",
         "address": "4517 Calmont St, Fort Worth, TX, USA",
@@ -83,7 +92,8 @@
     },
     {
         "id": 110,
-        "name": "Daniel Grassie",
+        "firstname": "Daniel",
+        "lastname": "Grassie",
         "phone": "(516) 246-1510",
         "email": "daniel@email.com",
         "address": "72 High Wood Pr, Oyster Park, NY, USA",

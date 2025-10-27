@@ -85,12 +85,6 @@
     margin-left: 20px;
 }
 
-.contact-photo:hover {
-    transform: scale(1.05);
-    transition: transform 0.2s ease-in-out;
-    border-color: #017AFF;
-}
-
 .contact-card {
     display: flex;
     align-items: center;
@@ -136,7 +130,6 @@ select {
     border-radius: 8px;
     border: 1px solid #3a3a3a;
     padding: 0.5rem 0.75rem;
-    background: #1a1a1a;
     color: inherit;
 }
 
