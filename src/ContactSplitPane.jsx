@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./ContactSplitPane.css";
+
+const LS_KEY = "contacts"; // local storage for easier loading and retrieval
 
 export default function ContactsSplitPane() {
     const [contacts, setContacts] = useState([]);
@@ -8,6 +11,15 @@ export default function ContactsSplitPane() {
     const detailRef = useRef(null);
 
     useEffect(() => {
+        const saved = localStorage.getItem(LS_KEY);
+        // if there is any saved data in the LS_KEY global variable [localStorage] return item, otherwise it wont run
+        if (saved) {
+            const parsed = JSON.parse(saved);
+            setContacts(parsed);
+            if (parsed.length > 0) setSelectedId(parsed[0].id);
+            return;
+        }
+
         fetch("/data/contacts.json")
             .then((response) => response.json())
             .then((data) => {
@@ -19,6 +31,7 @@ export default function ContactsSplitPane() {
             .catch((error) => console.error("Error loading contacts:", error));
     }, []);
 
+    // filtering need to be updated. bug with searching results
     const filtered = useMemo(() => {
         if (!query.trim()) return contacts;
         const q = query.toLowerCase();
@@ -41,12 +54,13 @@ export default function ContactsSplitPane() {
             detailRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     }, [selectedId]);
+
     return (
         <div className="contacts-layout">
             {/* Left Contact List Pane */}
             <aside className="list-pane">
                 <div className="list-header">
-                    <h2 className="list-title">Contacts</h2>
+                    <h1 className="list-title">Contacts</h1>
                     <input
                         type="text"
                         placeholder="Search"
@@ -56,6 +70,7 @@ export default function ContactsSplitPane() {
                     />
                 </div>
 
+                {/* iterating through contact list wiht map function */}
                 <ul className="list">
                     {filtered.map((contact) => {
                         const isActive = contact.id === selectedId;
@@ -101,7 +116,7 @@ export default function ContactsSplitPane() {
                             <h1 className="detail-title">
                                 {selected.firstname} {selected.lastname}
                             </h1>
-                            <h3 className="detail-sub">Details</h3>
+                            <h2 className="detail-sub">Details</h2>
 
                             <dl className="fields">
                                 <div className="field">
